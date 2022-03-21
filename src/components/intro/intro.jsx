@@ -17,7 +17,7 @@ const Intro = () => {
                         </div>
                     </div>
                     <div className="intro-description">
-                    I am a New York based web developer with a backround in audio technology and philosophy. When I am not chasing waves on the coast or snow in the mountains, I am utilizing React, Express, Mongo, MySql And Node to make your web based dreams a digital reality. If you like what you see, drop me a line. I look forward to hearing from you!
+                    I am a New York based web developer with a backround in audio technology and philosophy. When I am not chasing waves on the coast or snow in the mountains, I am utilizing React, Express, Mongo, MySQL And Node to make your web based dreams a digital reality. If you like what you see, drop me a line. I look forward to hearing from you!
                     </div>
                 </div>
             </div>
