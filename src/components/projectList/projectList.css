@@ -4,6 +4,31 @@
     /* background-color: #94a9c0;
     color: #282c34; */
     background-color: #282c34;
-    /* background-image: url('../img/st-annes-background.jpg') ; */
+    /* background-image: url('https://github.com/Will-Neal/react-portfolio-wwn/blob/main/src/img/st-annes-backround.jpg?raw=true'); */
     color: #61dafb;
+    padding: 100px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.pl-texts {
+    width: 65%;
+}
+
+.pl-title {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.pl-description {
+    margin: 20px 0px;
+}
+
+.pl-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }

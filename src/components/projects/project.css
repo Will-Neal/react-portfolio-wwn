@@ -1,8 +1,25 @@
 .proj {
-        display: flex;
-        /* height: 100vh; */
-        /* background-color: #94a9c0;
-        color: #282c34; */
         background-color: #282c34;
         color: #61dafb;
+        width: 30%;
+        height: 40vh;
+        margin: 20px 10px;
+        border: 1px solid #d4c4fb;
+        border-radius: 10px 10px 0px 0px;
+        overflow: hidden;
+}
+
+.proj-browser {
+        height: 20px;
+        background-color: #d4c4fb;
+        display: flex;
+        align-items: center;
+}
+
+.proj-circle {
+        height: 6px;
+        width: 6px;
+        background-color: #282c34;
+        margin: 3px;
+        border-radius: 45px;
 }
