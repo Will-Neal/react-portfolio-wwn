@@ -1,8 +1,6 @@
 .pl {
+    height: 100vh;
     display: flex;
-    /* height: 100vh; */
-    /* background-color: #94a9c0;
-    color: #282c34; */
     background-color: #282c34;
     /* background-image: url('https://github.com/Will-Neal/react-portfolio-wwn/blob/main/src/img/st-annes-backround.jpg?raw=true'); */
     color: #61dafb;
@@ -27,6 +25,7 @@
 }
 
 .pl-list {
+    height: 100%;
     width: 100%;
     display: flex;
     flex-wrap: wrap;

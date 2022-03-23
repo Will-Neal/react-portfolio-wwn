@@ -1,16 +1,17 @@
 import './project.css';
 
-const Project = () => {
+const Project = ({ img, deploy, repo, name }) => {
     return (
         <div className='proj'>
             <div className="proj-browser">
                 <div className="proj-circle"></div>
                 <div className="proj-circle"></div>
                 <div className="proj-circle"></div>
-                <a href="https://crate-of-records.herokuapp.com/" target="_blank" rel='noreferrer'>
-                    <img src="" alt="crate" className='proj-image'></img>
-                </a>
+                <a href={repo}><h6 className='proj-title'>{name}</h6></a>
             </div>
+            <a href={deploy} target="_blank" rel='noreferrer'>
+                <img src={img} alt={name} className='proj-image'></img>
+            </a>
         </div>
     )
 }

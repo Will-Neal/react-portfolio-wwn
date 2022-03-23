@@ -7,13 +7,17 @@
         border: 1px solid #d4c4fb;
         border-radius: 10px 10px 0px 0px;
         overflow: hidden;
+        justify-content: center;
+        align-items: center;
 }
 
 .proj-browser {
-        height: 20px;
-        background-color: #d4c4fb;
+        height: 30px;
+        background-color: #a99bcc;
         display: flex;
         align-items: center;
+        position: sticky;
+        z-index: 2;
 }
 
 .proj-circle {
@@ -23,3 +27,15 @@
         margin: 3px;
         border-radius: 45px;
 }
+
+
+.proj-image {
+        width: 100%;
+        height: 100%;
+        transition: all 2s ease;
+}
+
+.proj:hover .proj-image{
+        transform:scale(120%)
+}
+
