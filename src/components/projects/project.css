@@ -32,10 +32,10 @@
 
 .proj-image {
         width: 100%;
-        transition: all 4s ease;
+        transition: all 10s ease;
 }
 
 .proj:hover .proj-image{
-        transform: translateY(-21%);
+        transform: translateY(-25%);
 }
 
