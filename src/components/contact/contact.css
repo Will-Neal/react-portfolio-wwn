@@ -2,4 +2,43 @@
     background-color: #282c34;
     color: #61dafb;
     height: 100vh;
+    position: relative;
+}
+
+.c-bg{
+    background-color: #61dafb;
+    width: 20px;
+    height: 100%;
+    position: absolute;
+}
+
+.c-wrapper {
+    padding: 50px;
+    display: flex;
+}
+
+.c-left {
+    flex: 1;
+}
+
+.c-right {
+    flex: 1;
+}
+
+.c-title {
+    font-style: 60px;
+    width: 80%;
+    padding-bottom: 30px;
+    margin-left: 15px;
+}
+
+.c-info-item{
+    display: flex;
+    align-items: center;
+}
+
+.c-icon {
+    width: 30px;
+    height: 30px;
+    padding: 15px;
 }
