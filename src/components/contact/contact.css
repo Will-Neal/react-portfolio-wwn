@@ -94,3 +94,9 @@ button {
 .thanks {
     margin-top: 15px;
 }
+
+@media screen and (max-width: 480px){
+    .c-wrapper {
+        flex-direction: column;
+    }
+}

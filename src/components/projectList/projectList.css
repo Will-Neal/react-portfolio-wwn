@@ -44,3 +44,27 @@
     z-index: 0;
     top: -4.3%;
 }
+
+@media screen and (max-width: 480px){
+    .pl {
+        flex-direction: column;
+        background-image: none;
+        text-align: center;
+        align-items: center;
+        height: 200vh;
+    }
+
+    .pl-texts {
+        width: 100%;
+        z-index: auto;
+    }
+
+    .pl-bg {
+        height: 0%;
+        z-index: auto;
+    }
+
+    .pl-description {
+        display: none;
+    }
+}

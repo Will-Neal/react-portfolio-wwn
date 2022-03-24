@@ -85,3 +85,28 @@
     height: 100vh;
     width: 100%;
 }
+
+@media screen and (max-width: 480px){
+    .intro {
+        flex-direction: column;
+    }
+
+    .intro-left {
+        padding: 10px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .intro-left-wrapper {
+        height: 100%;
+    }
+
+    /* .intro-description {
+        padding-bottom: 70px;
+    } */
+
+    .intro-bg {
+        height: 0vh;
+    }
+}
