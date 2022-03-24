@@ -7,8 +7,8 @@ const ProjectList = () => {
         <div className='pl'>
             <div className="pl-bg"></div>
             <div className="pl-texts">
-               <h1 className='pl-title'>Projects and Applications</h1>
-               <p className='pl-description'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque, enim accusantium magnam accusamus molestias quo inventore, error aliquam asperiores unde consequuntur, est qui recusandae! Praesentium, delectus amet. Error, odio. Incidunt?
+               <h1 className='pl-title'>Projects</h1>
+               <p className='pl-description'>A small collection of previous works. Click on header to see the repo and the image to see the deployment.
                </p> 
             </div>
             <div className="pl-list">
