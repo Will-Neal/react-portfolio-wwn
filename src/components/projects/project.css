@@ -1,3 +1,4 @@
+
 .proj {
         background-color: #282c34;
         color: #61dafb;
@@ -29,6 +30,10 @@
         border-radius: 45px;
 }
 
+.proj-title {
+        background-color: #a99bcc;
+}
+
 
 .proj-image {
         width: 100%;
@@ -50,4 +55,5 @@
         .proj-browser {
                 z-index: auto;
         }
+
     }

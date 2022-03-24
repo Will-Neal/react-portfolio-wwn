@@ -1,0 +1,28 @@
+
+.navbar{ 
+    position: absolute;
+    opacity: 40%;
+    width: 100%;
+    z-index: 1;
+}
+
+.nav-wrapper {
+
+}
+
+.navbar-nav {
+    border: none;
+    flex-direction: row;
+    background-color: white;
+}
+
+.nav-item {
+    margin-left: 33%;
+
+    border: none;
+}
+
+.nav-link {
+    border: none;
+    background-color: white;
+}

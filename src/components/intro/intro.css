@@ -88,7 +88,7 @@
 
 @media screen and (max-width: 480px){
     *{
-        background-color: #282c34;
+        /* background-color: #282c34; */
         color: #61dafb;
     }
 
@@ -101,6 +101,7 @@
         align-items: center;
         text-align: center;
         justify-content: center;
+        background-color: #282c34;
     }
 
     .intro-left-wrapper {
