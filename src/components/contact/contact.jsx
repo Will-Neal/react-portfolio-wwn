@@ -2,6 +2,8 @@ import './contact.css';
 import Email from '../../img/email-icon.png';
 import Github from '../../img/github-icon.png';
 import Linkedin from '../../img/linkedin-icon.png'
+import ResumeIcon from '../../img/resume-icon.png'
+import Resume from '../../img/resume-wwn.pdf'
 import { useRef, useState } from 'react';
 import emailjs from 'emailjs-com';
 
@@ -38,6 +40,9 @@ const Contact = () => {
                         </div>
                         <div className="c-info-item">
                             <a href='https://www.linkedin.com/in/will-neal-567565a1/' target="_blank"><img src={Linkedin} alt='email' className='c-icon'></img></a>will-neal
+                        </div>
+                        <div className="c-info-item">
+                            <a href={Resume} target="_blank"><img src={ResumeIcon} alt='email' className='c-icon'></img></a>Résumé
                         </div>
                         
                     </div>

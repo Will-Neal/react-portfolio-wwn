@@ -57,6 +57,7 @@
     .pl-texts {
         width: 100%;
         z-index: auto;
+        margin-bottom: 40px;
     }
 
     .pl-bg {
@@ -66,5 +67,10 @@
 
     .pl-description {
         display: none;
+    }
+
+    .pl-list {
+        width: 120%;
+        height: 120%;
     }
 }
