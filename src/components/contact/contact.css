@@ -99,4 +99,18 @@ button {
     .c-wrapper {
         flex-direction: column;
     }
+
+    .c-left {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .c-desc {
+        margin: 5%;
+    }
+
+    .c-icon {
+        padding: 13px;
+    }
 }
