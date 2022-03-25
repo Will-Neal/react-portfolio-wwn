@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Link } from 'react-router-dom'
 
 import './header.css'
 import Intro from '../../components/intro/intro'
@@ -14,20 +15,20 @@ const Header = () => {
                     <div className='nav-wrapper'>
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link" href="/react-portfolio-wwn/">Main</a>
+                            <Link className="nav-link" to="/">Main</Link>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="/projects">Projects</a>
+                            <Link className="nav-link" to="/projects">Projects</Link>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="/contact">Contact</a>
+                            <Link className="nav-link" to="/contact">Contact</Link>
                             </li>
                         </ul>
                     </div>
                 </nav>
                 <Routes>
                     <Route
-                        path="/react-portfolio-wwn"
+                        path="/"
                         element={<Intro />}
                     />
                     <Route 
