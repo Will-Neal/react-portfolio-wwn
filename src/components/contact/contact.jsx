@@ -1,5 +1,5 @@
 import './contact.css';
-import Email from '../../img/email-icon.png';
+import Email from '../../img/email-icon.jpg'
 import Github from '../../img/github-icon.png';
 import Linkedin from '../../img/linkedin-icon.png'
 import ResumeIcon from '../../img/resume-icon.png'

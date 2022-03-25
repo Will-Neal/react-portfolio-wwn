@@ -15,6 +15,7 @@
 .c-wrapper {
     padding: 50px;
     display: flex;
+    background-color: #282c34;
 }
 
 .c-left {
