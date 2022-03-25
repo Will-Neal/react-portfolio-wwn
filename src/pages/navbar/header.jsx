@@ -15,7 +15,7 @@ const Header = () => {
                     <div className='nav-wrapper'>
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                            <Link className="nav-link" to="/react-portfolio-wwn">Main</Link>
+                            <Link className="nav-link" to="/">Main</Link>
                             </li>
                             <li class="nav-item">
                             <Link className="nav-link" to="/projects">Projects</Link>
@@ -27,6 +27,10 @@ const Header = () => {
                     </div>
                 </nav>
                 <Routes>
+                    <Route
+                        path="/"
+                        element={<Intro />}
+                    />
                     <Route
                         path="/react-portfolio-wwn"
                         element={<Intro />}
