@@ -28,11 +28,11 @@ const Header = () => {
                 </nav>
                 <Routes>
                     <Route
-                        path="/"
+                        path="/react-portfolio-wwn"
                         element={<Intro />}
                     />
                     <Route
-                        path="/react-portfolio-wwn"
+                        path="/"
                         element={<Intro />}
                     />
                     <Route 
