@@ -26,6 +26,8 @@
   
   ![contact](https://github.com/Will-Neal/react-portfolio-wwn/blob/main/src/img/contact-page.png?raw=true)
   
+  ![mobile-intro](https://github.com/Will-Neal/react-portfolio-wwn/blob/main/src/img/intro-mobile.png?raw=true)
+  
   ## License
 
   ![License Badge](https://img.shields.io/badge/license-MIT-orange?style=plastic=appveyor?raw=true)
