@@ -53,6 +53,11 @@
     margin-top: 16%;
 }
 
+a {
+    text-decoration: none;
+    color: #61dafb;
+}
+
 form{
     margin-top: 3%;
 }

@@ -33,16 +33,16 @@ const Contact = () => {
                     <h1 className="c-title">Contact</h1>
                     <div className="c-info">
                         <div className="c-info-item">
-                            <a href='mailto:willwneal@gmail.com' target="_blank"><img src={Email} alt='email' className='c-icon'></img></a>willwneal@gmail.com
+                            <a href='mailto:willwneal@gmail.com' target="_blank"><img src={Email} alt='email' className='c-icon'></img>willwneal@gmail.com</a>
                         </div>
                         <div className="c-info-item">
-                            <a href='https://github.com/Will-Neal' target="_blank"><img src={Github} alt='email' className='c-icon'></img></a>Will-Neal
+                            <a href='https://github.com/Will-Neal' target="_blank"><img src={Github} alt='email' className='c-icon'></img>Will-Neal</a>
                         </div>
                         <div className="c-info-item">
-                            <a href='https://www.linkedin.com/in/will-neal-567565a1/' target="_blank"><img src={Linkedin} alt='email' className='c-icon'></img></a>will-neal
+                            <a href='https://www.linkedin.com/in/will-neal-567565a1/' target="_blank"><img src={Linkedin} alt='email' className='c-icon'></img>will-neal</a>
                         </div>
                         <div className="c-info-item">
-                            <a href={Resume} target="_blank"><img src={ResumeIcon} alt='email' className='c-icon'></img></a>Résumé
+                            <a href={Resume} target="_blank"><img src={ResumeIcon} alt='email' className='c-icon'></img>Résumé</a>
                         </div>
                         
                     </div>
