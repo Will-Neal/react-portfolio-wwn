@@ -13,7 +13,7 @@
 .navbar-nav {
     border: none;
     flex-direction: row;
-    background-color: white;
+    background-color: #f8f9fa;
 }
 
 .nav-item {
@@ -24,5 +24,5 @@
 
 .nav-link {
     border: none;
-    background-color: white;
+    background-color: #f8f9fas;
 }

@@ -41,7 +41,7 @@
 }
 
 .intro-title {
-    height: 80px;
+    height: 90px;
     overflow: hidden;
 }
 
@@ -55,7 +55,7 @@
         transform: translateY(-50px)
     } */
     100%{
-        transform: translateY(-100px)
+        transform: translateY(-102px)
     }
 }
 

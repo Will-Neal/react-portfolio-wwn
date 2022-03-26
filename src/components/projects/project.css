@@ -20,9 +20,12 @@
         align-items: center;
         position: sticky;
         z-index: 2;
+        justify-content: center;
 }
 
 .proj-circle {
+        /* display: none; */
+        padding-right: 20px;
         height: 6px;
         width: 6px;
         background-color: #282c34;
@@ -31,7 +34,11 @@
 }
 
 .proj-title {
+        padding-top: 10px;
         background-color: #a99bcc;
+        font-size: 90%;
+        color: #282c34;
+        font-weight: 600;
 }
 
 
@@ -42,7 +49,7 @@
 }
 
 .proj:hover .proj-image{
-        transform: translateY(-17%);
+        transform: translateY(-10%);
 }
 
 @media screen and (max-width: 480px){
