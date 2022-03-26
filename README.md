@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+ # React Developer Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  ## Description
+  
+  My personal web development portfolio built as a single page application using React. The page has a similar color scheme to React to highlight the correlation but    also because I simply like the color scheme as it is modern and sleek as well as matching the coloring of the personal image that I chose. The portfolio also makes use of emailjs to allow viewers to send messages that will be redirected to my personal email address. The page also makes use of bootstrap styling and and a resume icon from Rukanicon.
+   
+  ## Table of Contents 
 
-## Available Scripts
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [License](#license)
 
-In the project directory, you can run:
+  ## Installation
+  
+  If you wanted to install and modify for your own purposes, clone down the repository and use `npm i` to install the dependencies and `npm start` to turn on the server. In addition to the all of the projects and personal information you would also need to change the homepage in the package.json for GitHub pages and the service id, template id, and the account id in the handle submit function of contact.jsx - otherwise I will receive all of the messages intended for you. 
+  
+  ## Usage
 
-### `npm start`
+  Use the navbar to navigate to the different pages. Enter the required info and message into the form and submit to send me a message. Click on the header of the project cards to go to the repo and the image of the project cards to go to the deployment.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+  To check out the deployed application [click here.](https://will-neal.github.io/react-portfolio-wwn/)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  ![BlogNog Screenshot](https://github.com/Will-Neal/Tech-Blog/blob/main/screenshots/blognog-screenshot.jpg?raw=true)
+  ## License
 
-### `npm test`
+  ![License Badge](https://img.shields.io/badge/license-MIT-orange?style=plastic=appveyor?raw=true)
+  <br>
+  
+  [Click here for more information regarding the above license](https://opensource.org/licenses/MIT)
+    
+  ---
+    
+  ## Technologies
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  - Node.JS
+  - React 
+  - React Router
+  - EmailJS
 
-### `npm run build`
+  ## How to Contribute
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+  [Find the covenant here](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.txt)
+  
+  ## Tests
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  Testing has not yet been performed on this applucation.
 
-### `npm run eject`
+  ## Questions
+  
+  If you have any questions contact the creator at:
+  <br>
+  [willwneal@gmail.com](mailto:willwneal@gmail.com)
+  <br>
+  [GitHub](https://github.com/Will-Neal)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
