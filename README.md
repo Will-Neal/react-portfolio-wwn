@@ -20,7 +20,12 @@
 
   To check out the deployed application [click here.](https://will-neal.github.io/react-portfolio-wwn/)
 
-  ![BlogNog Screenshot](https://github.com/Will-Neal/Tech-Blog/blob/main/screenshots/blognog-screenshot.jpg?raw=true)
+  ![homepage](https://github.com/Will-Neal/react-portfolio-wwn/blob/main/src/img/homepage.png?raw=true)
+  
+  ![projects](https://github.com/Will-Neal/react-portfolio-wwn/blob/main/src/img/projects-page.png?raw=true)
+  
+  ![contact](https://github.com/Will-Neal/react-portfolio-wwn/blob/main/src/img/contact-page.png?raw=true)
+  
   ## License
 
   ![License Badge](https://img.shields.io/badge/license-MIT-orange?style=plastic=appveyor?raw=true)
