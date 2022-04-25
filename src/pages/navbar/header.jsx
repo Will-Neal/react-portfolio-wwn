@@ -15,13 +15,13 @@ const Header = () => {
                     <div className='nav-wrapper'>
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                            <Link className="nav-link" to="/">Main</Link>
+                            <Link className="nav-link" to="/react-portfolio-wwn">Main</Link>
                             </li>
                             <li class="nav-item">
-                            <Link className="nav-link" to="/projects">Projects</Link>
+                            <Link className="nav-link" to="/react-portfolio-wwn/projects">Projects</Link>
                             </li>
                             <li class="nav-item">
-                            <Link className="nav-link" to="/contact">Contact</Link>
+                            <Link className="nav-link" to="/react-portfolio-wwn/contact">Contact</Link>
                             </li>
                         </ul>
                     </div>
@@ -36,11 +36,11 @@ const Header = () => {
                         element={<Intro />}
                     />
                     <Route 
-                        path="/projects"
+                        path="/react-portfolio-wwn/projects"
                         element={<ProjectList />}
                     />
                     <Route
-                        path="/contact"
+                        path="/react-portfolio-wwn/contact"
                         element={<Contact />}
                     />
                 </Routes>
