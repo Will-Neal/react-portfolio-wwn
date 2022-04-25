@@ -15,17 +15,17 @@ export const projects = [
     },
     {
         id: 3,
+        name: 'Craft',
+        img: 'https://github.com/Will-Neal/react-portfolio-wwn/blob/main/src/img/jate-screenshot.jpg?raw=true',
+        deploy: 'https://just-another-text-editor-jate.herokuapp.com/',
+        repo: 'https://github.com/Will-Neal/jate-text-editor',
+    },
+    {
+        id: 4,
         name: 'Work Day Scheduler',
         img: 'https://github.com/Will-Neal/react-portfolio-wwn/blob/main/src/img/calendarScreenshot.png?raw=true',
         deploy: 'https://will-neal.github.io/Work-Day-Scheduler/',
         repo: 'https://github.com/Will-Neal/Work-Day-Scheduler',
-    },
-    {
-        id: 4,
-        name: 'JATE',
-        img: 'https://github.com/Will-Neal/react-portfolio-wwn/blob/main/src/img/jate-screenshot.jpg?raw=true',
-        deploy: 'https://just-another-text-editor-jate.herokuapp.com/',
-        repo: 'https://github.com/Will-Neal/jate-text-editor',
     },
     {
         id: 5,
