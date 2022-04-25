@@ -16,9 +16,9 @@ export const projects = [
     {
         id: 3,
         name: 'Craft',
-        img: 'https://github.com/Will-Neal/react-portfolio-wwn/blob/main/src/img/jate-screenshot.jpg?raw=true',
-        deploy: 'https://just-another-text-editor-jate.herokuapp.com/',
-        repo: 'https://github.com/Will-Neal/jate-text-editor',
+        img: 'https://github.com/Will-Neal/react-portfolio-wwn/blob/main/src/img/craft-ss.png?raw=true',
+        deploy: 'https://craftmarket.herokuapp.com/',
+        repo: 'https://github.com/Will-Neal/Craft',
     },
     {
         id: 4,
